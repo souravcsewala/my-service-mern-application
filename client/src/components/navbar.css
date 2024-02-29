@@ -1,0 +1,42 @@
+/* navbar.css */
+
+.container {
+    max-width: 140rem;
+    padding: 4.2rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 3.2rem;
+    list-style: none; /* remove default list styles */
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+}
+
+li {
+    font-size: 2rem;
+}
+
+li a {
+    text-decoration: none;
+    color: #646cffaa;
+    transition: color 0.3s ease;
+}
+
+li a:hover {
+    color: red; /* change color on hover */
+}
+
+.logo a {
+    font-size: 3.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #646cffaa;
+    margin-left: 55px;
+    word-spacing: 2px;
+}
+.active {
+    color:  #64fff7f9; /* change color for active link */
+}
